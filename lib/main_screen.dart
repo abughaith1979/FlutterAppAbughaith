@@ -72,7 +72,7 @@ class _MainScreenState extends State<MainScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text("Shoping App"),
+        title: const Text("Shopping App"),
       ),
       body: Column(
         children: [
@@ -98,7 +98,7 @@ class _MainScreenState extends State<MainScreen> {
                       value: getitemcnt(itemsList).toString()),
                   Expanded(child: Container()),
                   footer(
-                      title: "Total Price",
+                      title: "Total Price ALL",
                       value: getitempricet(itemsList).toString())
                 ],
               ),
